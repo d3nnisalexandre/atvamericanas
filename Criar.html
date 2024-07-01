@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastre-se</title>
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário de Cadastro</title>
+        <link rel="stylesheet" href="sty.css">
+    </head>
+    <body>
+        <form class="form">
+            <h2>dados cadastrais <span>* campos obrigatórios.</span></h2>
+            <label>quem está comprando?
+                <button>
+                    <input type="radio" name="comprador" value="pessoa" required> pessoa
+                </button>
+                <button>
+                     <input type="radio" name="comprador" value="empresa" required> empresa
+                </button>
+               
+            </label>
+            
+            <label>nome completo
+                <input type="text" name="nome_completo" required>
+            </label>
+    
+            <label>sexo
+                <select name="sexo" required>
+                    <option value="" disabled selected>Selecione</option>
+                    
+                </select>
+            </label>
+    
+            <label>CPF
+                <input type="text" name="cpf" required>
+            </label>
+    
+            <label>data de nascimento
+                <input type="date" name="data_nascimento" required>
+            </label>
+    
+            <label>telefone
+                <input type="tel" name="telefone">
+            </label>
+    
+            <label>telefone celular
+                <input type="tel" name="telefone_celular">
+            </label>
+    
+            <label>como gostaria de ser chamado?
+                <input type="text" name="chamado">
+            </label>
+    
+            <label>e-mail
+                <input type="email" name="email" required>
+            </label>
+    
+            <label>senha americanas.com
+                <input type="password" name="senha" required>
+            </label>
+    
+            <label>confirma sua senha
+                <input type="password" name="confirma_senha" required>
+            </label>
+    
+            <label>receber ofertas da Americanas.com por e-mail?
+                <button>
+                    <input type="radio" name="ofertas_email" value="sim" required> sim
+                </button>
+                <button>
+                    <input type="radio" name="ofertas_email" value="não" required> não
+                </button>
+            </label>
+    
+            <p>receber ofertas da Americanas.com pelo celular?
+                <button>
+                    <input type="radio" name="ofertas_celular" value="sim" required> sim
+                </button>
+                <button>
+                    <input type="radio" name="ofertas_celular" value="não" required> não
+                </button>
+                
+            </p>
+    
+            <p>receber ofertas do Outlet SouBarato.com.br por e-mail?
+                <button>
+                    <input type="radio" name="ofertas_outlet" value="sim" required> sim
+                </button>
+                <button>
+                    <input type="radio" name="ofertas_outlet" value="não" required> não
+                </button>
+            </p>
+    
+            <h2>endereço de entrega <span>* campos obrigatórios.</span></h2>
+            <label>tipo de endereço
+                <select name="tipo_endereco" required>
+                    <option value="" disabled selected>Selecione</option>
+                
+                </select>
+            </label>
+    
+            <label>CEP
+                <input type="text" name="cep" required>
+            </label>
+    
+            <label>endereço
+                <input type="text" name="endereco" required>
+            </label>
+    
+            <label>número
+                <input type="text" name="numero" required>
+            </label>
+    
+            <label>complemento
+                <input type="text" name="complemento">
+            </label>
+    
+            <label>informações de referência
+                <input type="text" name="referencia">
+            </label>
+    
+            <label>bairro
+                <input type="text" name="bairro" required>
+            </label>
+    
+            <label>cidade
+                <input type="text" name="cidade" required>
+            </label>
+    
+            <label>estado
+                <input type="text" name="estado" required>
+            </label>
+    
+            <button type="submit">cadastrar</button>
+        </form>
+    </body>
+    </html>
+</body>
+</html>
